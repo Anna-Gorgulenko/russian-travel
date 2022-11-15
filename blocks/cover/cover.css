@@ -5,12 +5,12 @@
 
    @media screen and (max-width: 1024px) {
       .cover {
-      padding: 0;
+         padding: 0;
       }
    }
    
    @media screen and (max-width: 320px) {
       .cover {
-      padding-top: 20px;
+         padding-top: 20px;
       }
    }

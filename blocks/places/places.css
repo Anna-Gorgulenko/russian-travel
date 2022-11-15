@@ -3,32 +3,46 @@
    padding: 92px 148px 92px 148px;
  }
  
- @media screen and (max-width: 1100px) {
-   .places {
-     padding: 92px 78px 92px 78px;
-   }
- }
- 
- @media screen and (max-width: 1024px) {
-   .places {
-     padding: 92px 48px 92px 48px;
-   }
- }
- 
- @media screen and (max-width: 920px) {
-   .places {
-     padding: 88px 14px 90px 14px;
-   }
- }
- 
- @media screen and (max-width: 768px) {
-   .places {
-     padding: 88px 24px 88px 24px;
-   }
- }
- 
- @media screen and (max-width: 475px) {
-   .places {
-     padding: 64px 0 64px 0;
-   }
- }
+  @media screen and (max-width: 1100px) {
+    .places {
+      /* padding: 92px 78px 92px 78px; */
+      padding-right: 78px;
+      padding-left: 78px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .places {
+      /* padding: 92px 48px 92px 48px; */
+      padding-right: 48px;
+      padding-left: 48px;
+    }
+  }
+  
+  @media screen and (max-width: 920px) {
+    .places {
+      padding: 88px 14px 90px 14px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .places {
+      /* padding: 88px 24px 88px 24px; */
+      padding-right: 24px;
+      padding-bottom: 88px;
+      padding-left: 24px;
+    }
+  }
+  
+  @media screen and (max-width: 475px) {
+    .places {
+      padding: 64px 0 64px 0;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .places {
+      /* padding-top: 46px; */
+      padding-bottom: 46px;
+    }
+  }
